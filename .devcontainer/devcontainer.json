@@ -1,0 +1,4 @@
+{
+  "name": "n8n-fpllefia (safe)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+}
