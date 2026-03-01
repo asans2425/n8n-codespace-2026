@@ -1,0 +1,10 @@
+{
+  "name": "n8n-fpllefia (node)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "forwardPorts": [5678],
+  "portsAttributes": {
+    "5678": { "label": "n8n", "onAutoForward": "openBrowser" }
+  },
+  "postCreateCommand": "npm -g config set fund false && npm -g config set update-notifier false",
+  "postStartCommand": "bash .devcontainer/start-n8n.sh"
+}
